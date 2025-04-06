@@ -105,7 +105,7 @@ class _QuizViewState extends State<QuizView> {
                 child: quizzes.isEmpty
                     ? const Center(
                         child: Text(
-                          "No quizzes added yet",
+                          "No quizzes added yet.",
                           style: TextStyle(color: Colors.white54, fontSize: 16),
                         ),
                       )
